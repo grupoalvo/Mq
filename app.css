@@ -1,5 +1,5 @@
 :root {
-    background-color: #3cb371ff;
+    background-color: #444444ff;
     font-size: 62.5%;
 }
 
@@ -44,7 +44,7 @@ h2 {
 h3 {
     font-size: 1.8rem;
     font-weight: 500;
-    color: #444444ff;
+    color: #3cb371ff;
     text-align: center;
     margin-top: 18rem;
 }
