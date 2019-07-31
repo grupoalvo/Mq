@@ -43,21 +43,71 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
     fail: 'Você errou. Segundo o Art. 12 do CTB: Compete ao CONTRAN: (...) II - coordenar os órgãos do Sistema Nacional de Trânsito, objetivando a integração de suas atividades' } },
 
 {
-
-  question: 'How many man-made objects have been sent to the surface Mars (successfully and unsuccessfully):',
+  question: '(CESPE/2010) Incluem-se, entre as competências do CONTRAN, o acompanhamento e a coordenação das atividades de administração, educação, engenharia, fiscalização e policiamento ostensivo de trânsito.',
   answers: [
-  '2-5',
-  '6-8',
-  '9-13',
-  '14+'],
+  'Certo',
+  'Errado'],
 
-  correct: [3],
+  correct: [2],
   messages: {
-    pass: 'Correct. 14 missions have tried to place objects on the surface of Mars, some of these missions contained multiple objects',
-    fail: 'Sorry, the correct answer is 14+. 14 missions have tried to place objects on the surface of Mars, some of these missions contained multiple objects' } }];
+    pass: 'Parabéns! Você acertou.',
+    fail: 'Você errou. Segundo o Art. 14 do CTB: Compete aos Conselhos Estaduais de Trânsito - CETRAN e ao Conselho de Trânsito do Distrito Federal - CONTRANDIFE: (...) VIII - acompanhar e coordenar as atividades de administração, educação, engenharia, fiscalização, policiamento ostensivo de trânsito, formação de condutores, registro e licenciamento de veículos, articulando os órgãos do Sistema no Estado, reportando-se ao CONTRAN.' } },
 
+{
+  question: '(FCC/2019 - Adaptada) Uma das competências do Conselho Nacional de Trânsito (CONTRAN) é organizar e manter o Registro Nacional de Veículos Automotores (RENAVAM).',
+  answers: [
+  'Certo',
+  'Errado'],
 
+  correct: [2],
+  messages: {
+    pass: 'Parabéns! Você acertou.',
+    fail: 'Você errou. Segundo o Art. 19 do CTB: Compete ao órgão máximo executivo de trânsito da União: (...) IX - organizar e manter o Registro Nacional de Veículos Automotores - RENAVAM.' } },
 
+{
+  question: '(CESPE/2009) Compete à PMDF executar a fiscalização de trânsito, independentemente de convênio.',
+  answers: [
+  'Certo',
+  'Errado'],
+
+  correct: [2],
+  messages: {
+    pass: 'Parabéns! Você acertou.',
+    fail: 'Você errou. Segundo o Art. 23 do CTB: Compete às Polícias Militares dos Estados e do Distrito Federal: (...) III - executar a fiscalização de trânsito, quando e conforme convênio firmado, como agente do órgão ou entidade executivos de trânsito ou executivos rodoviários, concomitantemente com os demais agentes credenciados.' } },
+
+{
+  question: '(CESPE/2009) Compete aos órgãos ou entidades executivos de trânsito dos estados e do DF, no âmbito de sua circunscrição, vistoriar, registrar, emplacar, selar a placa, e licenciar veículos, expedindo o Certificado de Registro e o Licenciamento Anual (CRLV), mediante delegação do órgão federal competente.',
+  answers: [
+  'Certo',
+  'Errado'],
+
+  correct: [1],
+  messages: {
+    pass: 'Parabéns! Você acertou.',
+    fail: 'Você errou. Segundo o Art. 22 do CTB: Compete aos órgãos ou entidades executivos de trânsito dos Estados e do Distrito Federal, no âmbito de sua circunscrição: (...) III - vistoriar, inspecionar quanto às condições de segurança veicular, registrar, emplacar, selar a placa, e licenciar veículos, expedindo o Certificado de Registro e o Licenciamento Anual, mediante delegação do órgão federal competente.' } },
+
+{
+  question: '(FGV/2019 - Adaptada) Os órgãos colegiados responsáveis pelo julgamento dos recursos interpostos contra penalidades de trânsito são conhecidos como Cetran (Conselhos Estaduais de Trânsito).',
+  answers: [
+  'Certo',
+  'Errado'],
+
+  correct: [2],
+  messages: {
+    pass: 'Parabéns! Você acertou.',
+    fail: 'Você errou. Segundo o Art. 16 do CTB: Junto a cada órgão ou entidade executivos de trânsito ou rodoviário funcionarão Juntas Administrativas de Recursos de Infrações - JARI, órgãos colegiados responsáveis pelo julgamento dos recursos interpostos contra penalidades por eles impostas.' } },
+
+{
+  
+  question: '(NUCEPE/2019 - Adaptada) Os órgãos e entidades de trânsito pertencentes ao Sistema Nacional de Trânsito darão prioridade em suas ações à defesa da vida, nela incluída a preservação da saúde e do meio ambiente.',
+  answers: [
+  'Certo',
+  'Errado'],
+
+  correct: [1],
+  messages: {
+    pass: 'Parabéns! Você acertou.',
+    fail: 'Você errou. Segundo o Art. 1º e parágrafo 5º do CTB: Os órgãos e entidades de trânsito pertencentes ao Sistema Nacional de Trânsito darão prioridade em suas ações à defesa da vida, nela incluída a preservação da saúde e do meio-ambiente.' } }];
 
 
 var ReactCSS = React.addons.CSSTransitionGroup;
