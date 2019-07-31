@@ -38,7 +38,7 @@ h4 {
 }
 
 #question-holder {
-  min-height: 350px;
+  min-height: 400px;
   position: relative;
   overflow: hidden;
 }
@@ -187,3 +187,4 @@ table td{
 .fail {
   color: #c54f4f;
 }
+
